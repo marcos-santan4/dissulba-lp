@@ -1,0 +1,11 @@
+:root {
+  --font-inter: "Inter", serif;
+  --font-nunito: "Nunito", serif;
+
+  --font-color-header: #272d4e;
+  --primary-color: #0088da;
+  --second-color: #f5f5f5;
+  --footer-color: #000;
+  --white: #fff;
+  --activate-link: #3cb2fc;
+}
