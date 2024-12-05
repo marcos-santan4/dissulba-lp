@@ -22,7 +22,7 @@ const swiper = new Swiper(".swiper-container", {
     },
     1200: {
       slidesPerView: 4,
-      spaceBetween: 100,
+      spaceBetween: 200,
     },
   },
 });
