@@ -795,6 +795,30 @@ body {
   }
 }
 
+@media (max-width: 1367px) {
+  .container {
+    gap: 8%;
+  }
+
+  .card_tip {
+    height: 11em;
+    width: 9em;
+    margin: 15px;
+  }
+
+  .card_tip::after {
+    border-bottom: 11em solid #007dca;
+  }
+
+  .second-tip h3 {
+    font-size: 14px;
+  }
+
+  .imgBX img {
+    width: 45%;
+  }
+}
+
 @media (max-width: 1200px) {
   .menu_pagina {
     display: none;
