@@ -66,6 +66,10 @@ section {
   padding: 0 5%;
 }
 
+a {
+  text-decoration: none;
+}
+
 h3,
 p {
   font-family: var(--font-nunito);
@@ -573,6 +577,33 @@ iframe {
   animation: vibrate 3.5s infinite;
 }
 
+.catalogos {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.botao_catalogo {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  font-size: 16px;
+  color: var(--second-color);
+  background-color: var(--primary-color);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.botao_catalogo:hover {
+  background-color: #0056b3;
+  color: #fff;
+}
+
 @keyframes vibrate {
   0%,
   90% {
@@ -627,10 +658,8 @@ iframe {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-bottom: 2em;
   gap: 1em;
   position: relative;
-  bottom: 50px;
 }
 
 .produtos_descricao i {
@@ -944,8 +973,13 @@ body {
 }
 
 @media (max-width: 768px) {
+  h2,
+  h1 {
+    font-size: 18px;
+  }
+
   #logo-dissulba-preta {
-    width: 7em;
+    width: 8em;
   }
 
   .offcanvas.show:not(hiding) {
@@ -1055,6 +1089,7 @@ body {
 
   .hands {
     height: 110px;
+    margin: 15px 0;
   }
 
   .navbar > .container-fluid {
@@ -1179,6 +1214,10 @@ body {
 @media (max-width: 350px) {
   .offcanvas.show:not(hiding) {
     width: 60%;
+  }
+
+  .first-tip {
+    padding: 4% 7%;
   }
 
   .navbar-nav {
