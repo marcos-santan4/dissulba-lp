@@ -745,6 +745,7 @@ iframe {
   align-items: baseline;
   gap: 20px;
   justify-content: center;
+  color: var(--second-color);
 }
 
 p.descricao_texto.endereco {
